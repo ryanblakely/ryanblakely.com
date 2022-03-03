@@ -7,9 +7,12 @@ function App() {
     useEffect(() => {}, []);
 
     const formatDate = (d) => {
-        let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-        let date = new Date(d);
+        let options = { year: 'numeric', month: 'long', day: 'numeric' };
+        // let date = new Date(String(d));
+        let date = new Date(`${d}T00:00:00`);
+
         console.log(date);
+        // return date;
         return date.toLocaleDateString('en-US', options);
     };
 
@@ -21,7 +24,7 @@ function App() {
                 <Link to='/about'>About</Link>
             </header>
 
-            <div>
+            <div className='intro'>
                 <h1>How to.</h1>
                 <p>By Ryan Blakely</p>
                 <div className='flex'>
