@@ -1,6 +1,6 @@
-.Page {
-    padding: 1em;
+.page {
+    /* padding: 1em; */
     display: flex;
     flex-direction: column;
-    row-gap: 2.5em;
+    row-gap: 3em;
 }

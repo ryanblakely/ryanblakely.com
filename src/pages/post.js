@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import Markdown from 'markdown-to-jsx';
 import { Navigation } from '../components';
+import '../styles/post.css';
 
 const Post = (props) => {
     const [postId, setPostId] = useState(null);
@@ -34,12 +35,12 @@ const Post = (props) => {
 
     return (
         <React.Fragment>
-            <div className='Page'>
+            <div className='page'>
                 <Navigation></Navigation>
 
                 {post && (
                     <main>
-                        <Markdown children={post} options={{ wrapper: 'article' }}></Markdown>
+                        <Markdown children={post} options={{ wrapper: 'article' }} className='post'></Markdown>
                     </main>
                 )}
             </div>

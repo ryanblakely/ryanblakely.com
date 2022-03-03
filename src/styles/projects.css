@@ -1,0 +1,12 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2em;
+}
+
+.projects img {
+    padding: 1em;
+    width: 120px;
+    border-radius: 16px;
+    background: #0000000a;
+}

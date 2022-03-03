@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Navigation } from './components';
-import { posts } from './posts';
+import { posts } from './posts/database';
 import './App.css';
 
 function App() {
@@ -14,11 +14,11 @@ function App() {
     };
 
     return (
-        <div className='Page'>
+        <div className='page'>
             <Navigation></Navigation>
 
             <header>
-                <h1>How to.</h1>
+                <h1>How to ...</h1>
                 <p>By Ryan Blakely</p>
                 <menu>
                     <li>
@@ -38,18 +38,16 @@ function App() {
                 </menu>
             </header>
 
-            <main>
-                {posts &&
-                    posts.map((post) => (
-                        <article>
-                            <Link to={`/${post.url}`}>
-                                <h2>{post.title}</h2>
-                            </Link>
-                            <small>{formatDate(post.date)}</small>
-                            <p>{post.description}</p>
-                        </article>
-                    ))}
-            </main>
+            {posts &&
+                posts.map((post, index) => (
+                    <article key={index}>
+                        <Link to={`/${post.url}`}>
+                            <h2>{post.title}</h2>
+                        </Link>
+                        <small>{formatDate(post.date)}</small>
+                        <p>{post.description}</p>
+                    </article>
+                ))}
         </div>
     );
 }
