@@ -18,7 +18,7 @@ function App() {
             <Navigation></Navigation>
 
             <header>
-                <h1>How to ...</h1>
+                <h1>How to.</h1>
                 <p>By Ryan Blakely</p>
                 <menu>
                     <li>
