@@ -1,8 +1,18 @@
-import logo from './logo.svg';
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './App.css';
+import { posts } from './posts';
 
 function App() {
+    useEffect(() => {}, []);
+
+    const formatDate = (d) => {
+        let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        let date = new Date(d);
+        console.log(date);
+        return date.toLocaleDateString('en-US', options);
+    };
+
     return (
         <div className='Page'>
             <header>
@@ -15,23 +25,22 @@ function App() {
                 <h1>How to.</h1>
                 <p>By Ryan Blakely</p>
                 <div className='flex'>
-                    <a href=''>GitHub</a>
-                    <a href=''>YouTube</a>
+                    <a href='https://github.com/b1akely'>GitHub</a>
+                    <a href='https://www.youtube.com/channel/UCvN7iUxLLybOnfzNvEHEU4w'>YouTube</a>
                 </div>
             </div>
 
             <main>
-                <div className='post'>
-                    <Link to='/'>
-                        <h2>Getting Started With Monkey C and VSCode</h2>
-                    </Link>
-                    <span className='date'>March 1, 2022</span>
-                    <p>
-                        Ready to build your own watchface for your Garmin watch? The first step is to set up your
-                        development environment. This involves setting up the Garmin SDK and pairing it with VSCode.
-                        I’ll walk you through each step aso you can start building your own Garmin apps.
-                    </p>
-                </div>
+                {posts &&
+                    posts.map((post) => (
+                        <div className='post'>
+                            <Link to={`/${post.url}`}>
+                                <h2>{post.title}</h2>
+                            </Link>
+                            <span className='date'>{formatDate(post.date)}</span>
+                            <p>{post.description}</p>
+                        </div>
+                    ))}
             </main>
         </div>
     );

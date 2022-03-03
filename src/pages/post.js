@@ -16,12 +16,11 @@ const Post = (props) => {
         if (params.postId && !postId) {
             setPostId(params.postId);
         }
-    }, [params]);
+    }, [params, postId]);
 
     // get post with those params
     useEffect(() => {
         const fetchData = async () => {
-            // let post = await import(`../posts/${postId}.md`);
             let post = await import(`../posts/${postId}.md`);
             console.log(post);
 
@@ -31,10 +30,6 @@ const Post = (props) => {
             let text = await response.text();
             console.log(text);
             setPost(text);
-
-            // let compiledPost = await compile(post);
-            // console.log(compiledPost);
-            // setPost(compiledPost);
         };
 
         if (postId) {
