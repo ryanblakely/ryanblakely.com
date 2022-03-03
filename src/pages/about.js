@@ -13,11 +13,13 @@ const About = (props) => {
                 </header>
 
                 <main>
-                    <p>Hi 👋.</p>
-                    <p>
-                        I’m a software developer. When I learn something new, I like to write about it. This helps me
-                        remember how to do things in the future, and anyone else looking to learn.
-                    </p>
+                    <div>
+                        <p>Hi 👋.</p>
+                        <p>
+                            I’m a software developer. When I learn something new, I like to write about it. This helps
+                            me remember how to do things in the future, and anyone else looking to learn.
+                        </p>
+                    </div>
                 </main>
             </div>
         </React.Fragment>
