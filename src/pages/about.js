@@ -1,16 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-// import { Header, NewsletterSignup, Footer, BottomNav } from '../components';
+import { Navigation } from '../components';
 
 const About = (props) => {
     return (
         <React.Fragment>
             <div className='Page'>
-                <header>
-                    <Link to='/'>R</Link>
-                    <Link to='/projects'>Projects</Link>
-                    <Link to='/about'>About</Link>
-                </header>
+                <Navigation></Navigation>
 
                 <main>
                     <div>

@@ -22,12 +22,12 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
-header {
+nav {
     display: flex;
     column-gap: 1em;
 }
 
-header a {
+nav a {
     font-weight: 600;
     text-decoration: none;
 }
@@ -36,6 +36,12 @@ main {
     display: flex;
     flex-direction: column;
     row-gap: 1em;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
 }
 
 h1 {
@@ -52,49 +58,33 @@ a {
     color: black;
 }
 
-.flex {
+menu {
     display: flex;
     column-gap: 1em;
 }
 
-.date {
+small {
     font-size: 0.9rem;
 }
 
-.intro {
+header {
     display: flex;
     flex-direction: column;
     row-gap: 12px;
 }
 
-.projects {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.post {
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;
-}
-
 img {
     padding: 2em;
-    width: 85px;
+    width: 175px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 6px;
 }
 
-@media (min-width: 760px) {
+@media (min-width: 1000px) {
     body {
         width: 87.5%;
         margin-left: auto;
         margin-right: auto;
         padding-left: 12.5%;
-    }
-
-    .projects {
-        display: grid;
-        grid-template-columns: repeat(4, minmax(0, 1fr));
     }
 }
