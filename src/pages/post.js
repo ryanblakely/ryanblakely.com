@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import Markdown from 'markdown-to-jsx';
 import { Navigation } from '../components';
-import '../styling/post.css';
 
 const Post = (props) => {
     const [postId, setPostId] = useState(null);
