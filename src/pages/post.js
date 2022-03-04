@@ -4,7 +4,7 @@ import Markdown from 'markdown-to-jsx';
 import { Navigation } from '../components';
 import '../styles/post.css';
 
-const Post = (props) => {
+const Post = () => {
     const [postId, setPostId] = useState(null);
     const [post, setPost] = useState(null);
 
