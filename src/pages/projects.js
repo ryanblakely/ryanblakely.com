@@ -8,7 +8,7 @@ const Projects = (props) => {
             <div className='page'>
                 <Navigation></Navigation>
                 <div className='projects'>
-                    <section>
+                    {/* <section>
                         <img
                             src='https://res.cloudinary.com/dccqw6mij/image/upload/v1646321851/szbx8ulg3ehhabdkh5yu.png'
                             alt=''
@@ -16,7 +16,7 @@ const Projects = (props) => {
                         <a href='https://www.magfinder.com' target='_blank' rel='noreferrer'>
                             Basix Watch Face
                         </a>
-                    </section>
+                    </section> */}
                     <section>
                         <img
                             src='https://res.cloudinary.com/dccqw6mij/image/upload/v1646268121/k2v3dbpcmsvm0gn9t2rk.png'
