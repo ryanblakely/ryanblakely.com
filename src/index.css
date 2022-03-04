@@ -93,12 +93,17 @@ h1 {
 
 h2 {
     font-size: 1.25rem;
-    font-weight: 400;
+    font-weight: 500;
     font-style: italic;
+    margin-bottom: 1.4rem;
 }
 
 a {
     color: black;
+}
+
+a h2 {
+    margin-bottom: 0;
 }
 
 p {
