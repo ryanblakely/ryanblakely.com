@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Navigation = (props) => {
     return (
         <nav>
-            <Link to='/'>R</Link>
+            <Link to='/'>Guides</Link>
             <Link to='/projects'>Projects</Link>
             <Link to='/about'>About</Link>
         </nav>
