@@ -22,7 +22,7 @@ function App() {
                 <p>By Ryan Blakely</p>
                 <menu>
                     <li>
-                        <a href='https://github.com/b1akely' target='_blank' rel='noreferrer'>
+                        <a href='https://github.com/ryanblakely' target='_blank' rel='noreferrer'>
                             GitHub
                         </a>
                     </li>
