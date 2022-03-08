@@ -1,5 +1,5 @@
 <section>
-# Getting Started With Garmin Connect IQ and VS Code
+# Getting Started With Garmin Connect IQ and VSCode
 
 March 3, 2022
 
