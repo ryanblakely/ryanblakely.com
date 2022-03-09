@@ -8,26 +8,16 @@ Early on, the most difficult part was putting on my shoes and getting out the do
 
 Eventually, I learned to _decide_ to do things. I simply didn't allow myself to contemplate if I was going for a run. This made my experience much more simple. I was going to go for a run. It wasn't a question of _if_, it was only an observation of how that days experience would be.
 
-The process of training and finishing the marathon completely changed my mindset and approach to what's possible. I realized the biggest limit on myself was my mind. Conquer my mind and I could conquer my life. Process and rigor allowed me do something that at one point, seemed impossible.
+The process of training and finishing the marathon completely changed my mindset and approach to what's possible. I realized the biggest limit on myself was my mind. Conquer my mind and I could conquer my life. Process and rigor allowed me to do something that at one point, seemed impossible.
 
-I'm going to apply that same method of Process and Rigor to my UX/UI Design self study. I've identified some resources, developed a plan, and now I'm setting out to execute my plan. If I accomplish my goals, I'll be that much closer to my position. I want to become a master of user experience design. Not just digital, but multiple mediums. This is where I start.
+I'm going to apply that same method of Process and Rigor to my UX/UI Design self study. I've identified resources, developed a plan, and now I'm setting out to execute my plan. If I accomplish my goals, I'll be that much closer to my position. I want to become a master of user experience design. Not just digital, but multiple mediums. This is where I start.
 
-My first area of focus is going to be on design in general. Although I've never seriously studied design, I've always paid attention to aesthetic. My favorite course in college was Human Factors Engineering. Too bad I didn't take that until my final semester of my senior year.
+My first area of focus is going to be on design in general. Although I've never seriously studied design, I've always paid attention to aesthetic. My favorite course in college was Human Factors Engineering.
 
 In order to improve my understanding of design, I began reading through the course material on hackdesign.com. Once I started reading, I couldn't stop. I was introduced to Typography, UI Component Design, Color Palette's, User Research, and more. I realized how much I have to learn.
 
 I decided my best strategy for learning is to dive right in.
 
-Here's my syllabus for the next 8 weeks:
-Week 1 - Build portfolio website
-Week 2 - Create Spotify redesign case study
-Week 3 - Build typeracer app
-Week 4 - Build quiz app
-Week 5 - Build d3.js app
-Week 6 - Create yttp case study
-Week 7 - Build logos
-Week 8 - padding because life happens
-
 I'm going to design and develop 4 different applications. Two are going to be in React, one in React Native, one in Angular 5. For each app, I'm going to design a brand image, logos, develop the application, document the process, and prepare case studies recapping my decisions.
 
-My goal is to provide insight into my process and identify areas where I can improve. I'll post regularly throughout this process and would love to interact with anyone who reads this. I'm looking to grow, so I welcome any productive feedback.
+My goal is to provide insight into my process and identify areas where I can improve.
