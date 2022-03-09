@@ -9,3 +9,13 @@ ol,
 ul {
     line-height: 2rem;
 }
+
+@media (min-width: 860px) {
+    .post p {
+        width: 55%;
+    }
+
+    .post p img {
+        width: 100%;
+    }
+}
