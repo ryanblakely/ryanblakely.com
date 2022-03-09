@@ -12,6 +12,12 @@ const posts = [
             'Ready to build your own watchface for your Garmin watch? The first step is to set up your development environment. This involves setting up the Garmin SDK and pairing it with VSCode. I’ll walk you through each step so you can start building your own Garmin apps.',
         url: 'getting-started-with-garmin-connect-iq-and-vscode',
     },
+    {
+        title: 'Process and Rigor',
+        date: '2019-04-20',
+        description: 'My plan to learn software development',
+        url: 'process-and-rigor',
+    },
 ];
 
 export { posts };

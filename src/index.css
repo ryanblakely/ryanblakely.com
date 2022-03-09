@@ -128,9 +128,8 @@ header {
 
 @media (min-width: 1000px) {
     body {
-        width: 87.5%;
+        width: 65%;
         margin-left: auto;
         margin-right: auto;
-        padding-left: 12.5%;
     }
 }
