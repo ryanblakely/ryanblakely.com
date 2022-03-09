@@ -1,9 +1,9 @@
-<section>
 # Getting Started With Garmin Connect IQ and VSCode
 
-March 3, 2022
+<section>
 
-<!-- ![Garmin Connect IQ](https://res.cloudinary.com/dccqw6mij/image/upload/v1646323780/l0signwtigkdpgyfkwfl.png) -->
+![Garmin Connect IQ](https://res.cloudinary.com/dccqw6mij/image/upload/v1646323780/l0signwtigkdpgyfkwfl.png)
+
 </section>
 
 <section>

@@ -3,3 +3,9 @@
     flex-direction: column;
     row-gap: 3em;
 }
+
+.post p,
+ol,
+ul {
+    line-height: 2rem;
+}
