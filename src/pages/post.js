@@ -35,7 +35,7 @@ const Post = () => {
 
     return (
         <React.Fragment>
-            <div className='page'>
+            <div className='page post'>
                 <Navigation></Navigation>
 
                 {post && (

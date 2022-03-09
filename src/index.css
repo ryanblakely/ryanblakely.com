@@ -53,7 +53,7 @@ article section {
 
 section {
     display: flex;
-    row-gap: 0.5em;
+    /* row-gap: 0.5em; */
     align-items: center;
     column-gap: 1em;
 }
@@ -92,7 +92,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: 500;
     font-style: italic;
     margin-bottom: 1.4rem;
@@ -107,8 +107,10 @@ a h2 {
 }
 
 p,
-ol {
-    font-size: 1rem;
+ol,
+ul {
+    font-size: 1.2rem;
+    line-height: 2rem;
 }
 
 menu {
@@ -126,10 +128,18 @@ header {
     row-gap: 12px;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 860px) {
     body {
         width: 65%;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .post p {
+        width: 55%;
+    }
+
+    .post p img {
+        width: 100%;
     }
 }
