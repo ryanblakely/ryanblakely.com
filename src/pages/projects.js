@@ -28,7 +28,7 @@ const Projects = (props) => {
                     </section>
                     <section>
                         <img
-                            src='https://res.cloudinary.com/dccqw6mij/image/upload/v1646277636/yzxaaewatswqrzhot4qk.png'
+                            src='https://res.cloudinary.com/dccqw6mij/image/upload/v1646862254/qdllerjnb9h8wok7ouju.svg'
                             alt=''
                         />
                         <a href='https://www.youtube.com/watch?v=9qJFNoTSZfY' target='_blank' rel='noreferrer'>
