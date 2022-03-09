@@ -23,7 +23,7 @@ const Projects = (props) => {
                             alt=''
                         />
                         <a href='https://nft-portfolio.netlify.app' target='_blank' rel='noreferrer'>
-                            NFT Portfolio
+                            NFT Wallet Tracker
                         </a>
                     </section>
                     <section>
