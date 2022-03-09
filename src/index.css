@@ -113,6 +113,11 @@ ul {
     line-height: 2rem;
 }
 
+ol,
+ul li {
+    margin-bottom: 1em;
+}
+
 menu {
     display: flex;
     column-gap: 1em;

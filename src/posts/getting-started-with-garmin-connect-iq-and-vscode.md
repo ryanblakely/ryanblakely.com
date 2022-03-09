@@ -7,13 +7,6 @@ March 3, 2022
 </section>
 
 <section>
-Ready to build your own watch face for your Garmin watch? The first step is to set up your development environment. This involves setting up the Garmin IQ SDK and pairing it with VS Code.
-
-I'll walk you through each step so you can start building your own Garmin apps.
-
-</section>
-
-<section>
 ## Download the Garmin SDK
 
 [Download the Garmin Connect IQ SDK](https://developer.garmin.com/connect-iq/sdk/)

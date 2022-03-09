@@ -32,7 +32,7 @@ const Projects = (props) => {
                             alt=''
                         />
                         <a href='https://www.youtube.com/watch?v=9qJFNoTSZfY' target='_blank' rel='noreferrer'>
-                            VR Eye Training
+                            VR Eye Exercises
                         </a>
                     </section>
                 </div>
