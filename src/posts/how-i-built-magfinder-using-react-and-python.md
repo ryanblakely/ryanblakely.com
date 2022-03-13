@@ -9,7 +9,7 @@ March 12th, 2022 by Ryan Blakely
 </header>
 
 <section>
-## Problem 🤔
+## Problem 🛑
 
 I enjoy reading independent magazines, but they're difficult to find. Not many bookstores carry them. And there aren't many websites promoting new releases.
 
