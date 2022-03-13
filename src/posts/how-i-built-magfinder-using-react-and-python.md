@@ -32,21 +32,21 @@ Build a web crawler to search online magazine stores daily and save new releases
 <section>
 ## Tech Stack
 
-React, Python, Replit, Postmark, Fauna
+React, Python, Replit, Postmark, and Fauna.
 
-I use [React](https://reactjs.org) to build the display new magazine releases on a website. And Python to search the web for new magazines daily and email newsletters.
+I use [React](https://reactjs.org) to display new magazine releases on a website. And Python to search the web for new releases, and email newsletters.
 
 I signed up for a [Replit](https://replit.com/) pro account because they offer a server that is constantly active for $7/mo.
 
 ![Replit Pro Account](https://res.cloudinary.com/dccqw6mij/image/upload/v1647129011/kji4pouufnzppkbx2zqt.png)
-
-I use [Postmark](https://postmarkapp.com) to deliver the newsletter to users.
 
 I use [Fauna](https://fauna.com) to store the data. I chose Fauna because they have [excellent documentation](https://docs.fauna.com/fauna/current/) and an active online community that made it easy to learn.
 
 Their free tier is super generous and I'm able to use it to power this entire operation.
 
 ![Fauna's Free Tier](https://res.cloudinary.com/dccqw6mij/image/upload/v1647129090/mzvlijtqusajrmgesey4.png)
+
+I use the built-in [SMTP python library](https://docs.python.org/3/library/smtplib.html) Python module and [Postmark](https://postmarkapp.com) to deliver the newsletter to users.
 
 </section>
 
@@ -69,7 +69,7 @@ The newsletter template would also be really simple. I decided to create a singl
 
 ![Magfinder newsletter UI](https://res.cloudinary.com/dccqw6mij/image/upload/v1647129405/phfqufcmrzujznjjh2ig.png)
 
-I use Replit to retrieve the newsletter subscribers from Fauna, generate the email using an html file in the repl directory, and then emailing the magazine to subscribers using the built-in [SMTP python library](https://docs.python.org/3/library/smtplib.html) Python module and [Postmark](https://postmarkapp.com).
+I use Replit to retrieve the newsletter subscribers from Fauna, generate the email, and deliver it to users.
 
 </section>
 
