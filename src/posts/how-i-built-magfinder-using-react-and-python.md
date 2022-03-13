@@ -9,51 +9,49 @@ March 12th, 2022 by Ryan Blakely
 </header>
 
 <section>
-## Problem
+## Problem 🤔
 
 I enjoy reading independent magazines, but they're difficult to find. Not many bookstores carry them. And there aren't many websites promoting new releases.
 
 </section>
 
 <section>
-## Solution
+## Solution 💡
 
 Create a weekly newsletter of new independent magazine releases.
 
 </section>
 
 <section>
-## Strategy
+## Strategy 💭
 
 Build a web crawler to search online magazine stores daily and save new releases to a database. Use this database to automate a weekly newsletter.
 
 </section>
 
 <section>
-## Tech Stack
+## Tech Stack 🧰
 
 React, Python, Replit, Postmark, and Fauna.
 
-I use [React](https://reactjs.org) to display new magazine releases on a website. And Python to search the web for new releases, and email newsletters.
+I use [Replit](https://replit.com/) to retrieve the newsletter subscribers from [Fauna](https://fauna.com), generate the email using custom html, and deliver it to users via [Postmark](https://postmarkapp.com) using the built-in [SMTP python library](https://docs.python.org/3/library/smtplib.html) Python module.
 
-I signed up for a [Replit](https://replit.com/) pro account because they offer a server that is constantly active for $7/mo.
+I use [React](https://reactjs.org) to call the Fauna db and display new releases on the front end.
+
+I signed up for a Replit pro account because they offer a server that is constantly active for $7/mo.
 
 ![Replit Pro Account](https://res.cloudinary.com/dccqw6mij/image/upload/v1647129011/kji4pouufnzppkbx2zqt.png)
 
-I use [Fauna](https://fauna.com) to store the data. I chose Fauna because they have [excellent documentation](https://docs.fauna.com/fauna/current/) and an active online community that made it easy to learn.
+I chose Fauna because they have [excellent documentation](https://docs.fauna.com/fauna/current/) and an active online community that made it easy to learn.
 
-Their free tier is super generous and I'm able to use it to power this entire operation.
-
-![Fauna's Free Tier](https://res.cloudinary.com/dccqw6mij/image/upload/v1647129090/mzvlijtqusajrmgesey4.png)
-
-I use the built-in [SMTP python library](https://docs.python.org/3/library/smtplib.html) Python module and [Postmark](https://postmarkapp.com) to deliver the newsletter to users.
+They also have a super-generous free tier that I use it to power this entire operation.
 
 </section>
 
 <section>
-## Design
+## Design 🧑🏽‍🎨
 
-For the front end, I decided to use a grid layout of the latest magazine covers as the main UI. This felt similar to browsing magazines in the real world.
+I decided to use a grid layout of the latest magazine covers as the main web interface. This felt similar to browsing magazines in the real world.
 
 ![Magfinder home page](https://res.cloudinary.com/dccqw6mij/image/upload/v1647129152/xcce9hf14fha2spgeazt.png)
 
@@ -65,16 +63,14 @@ Next I created a /feeds route that shows the latest articles from various magazi
 
 ![Magfinder /feeds route](https://res.cloudinary.com/dccqw6mij/image/upload/v1647129280/whmt6l8bwj4ya64ptqdm.png)
 
-The newsletter template would also be really simple. I decided to create a single column with magazines as the rows.
+The newsletter template is also simple. It's a single column with magazines as the rows.
 
 ![Magfinder newsletter UI](https://res.cloudinary.com/dccqw6mij/image/upload/v1647129405/phfqufcmrzujznjjh2ig.png)
-
-I use Replit to retrieve the newsletter subscribers from Fauna, generate the email, and deliver it to users.
 
 </section>
 
 <section>
-## Next Steps
+## Next Steps 🔮
 
 [I created an instagram account](https://www.instagram.com/himagfinder) where I promote magazines by posting a short video flipping through them.
 
