@@ -76,9 +76,9 @@ I use Replit to retrieve the newsletter subscribers from Fauna, generate the ema
 <section>
 ## Next Steps
 
-[I created an instagram account](https://www.instagram.com/himagfinder) (@himagfinder) where I promote magazines by posting a short video flipping through them along with some music.
+[I created an instagram account](https://www.instagram.com/himagfinder) where I promote magazines by posting a short video flipping through them.
 
-Over a period of about 5 months, I was able to build a following of about 1,200 people.
+Over a period of ~5 months, I was able to build a following of more than 1,200 people.
 
 My next goal is to grow the number of newsletter subscribers to a point where I can charge for features.
 
