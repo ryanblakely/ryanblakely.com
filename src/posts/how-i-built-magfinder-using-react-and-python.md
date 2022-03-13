@@ -2,14 +2,16 @@
 # How I Built Magfinder Using React and Python
 March 12th, 2022 by Ryan Blakely
 
+<div>
 ![Maginfer.com](https://res.cloudinary.com/dccqw6mij/image/upload/v1647128824/f4eay3s3sn2903nmilca.png)
+</div>
 
 </header>
 
 <section>
 ## Problem
 
-I enjoy reading independent magazines, but they're difficult to find. Not many bookstores carry them. And there's not many websites online promoting new releases.
+I enjoy reading independent magazines, but they're difficult to find. Not many bookstores carry them. And there aren't many websites promoting new releases.
 
 </section>
 
