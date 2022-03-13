@@ -32,7 +32,7 @@ const posts = [
     {
         title: 'Process and Rigor',
         date: '2019-04-20',
-        description: 'My plan to improve.',
+        description: 'My strategy for personal growth.',
         url: 'process-and-rigor',
     },
 ];
