@@ -1,4 +1,7 @@
+<header>
 # Getting Started With Garmin Connect IQ and VSCode
+March 3rd, 2022 by Ryan Blakely
+</header>
 
 <section>
 
@@ -67,4 +70,11 @@ Add the line below to the file and save the changes
 
  </section>
 
-<!-- ## To be continued ... -->
+<section>
+## Create a New Project
+
+Launch the command palette by pressing: Command + Shift + P.
+
+Type "New Project" and select "Monkey C: New Project".
+
+</section>
