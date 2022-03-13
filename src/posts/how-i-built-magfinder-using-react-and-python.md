@@ -11,7 +11,7 @@ March 12th, 2022 by Ryan Blakely
 <section>
 ## Problem 🛑
 
-I enjoy reading independent magazines, but they're difficult to find. Not many bookstores carry them. And there aren't many websites promoting new releases.
+I enjoy reading independent magazines, but they're difficult to find. Not many bookstores carry them. And there aren't many websites promoting new releases. I want to make it easy to find new independent magazines.
 
 </section>
 
@@ -25,41 +25,41 @@ Create a weekly newsletter of new independent magazine releases.
 <section>
 ## Strategy 💭
 
-Build a web crawler to search online magazine stores daily and save new releases to a database. Use this database to automate a weekly newsletter.
+Build a web crawler to search online magazine stores and save new releases to a database. Use this database to power a front end and automated newsletter.
 
 </section>
 
 <section>
 ## Tech Stack 🧰
 
-React, Python, Replit, Postmark, and Fauna.
+[React](https://reactjs.org), [Python](https://www.python.org), [Replit](https://replit.com/), [Postmark](https://postmarkapp.com), and [Fauna](https://fauna.com).
 
-I use [Replit](https://replit.com/) to retrieve the newsletter subscribers from [Fauna](https://fauna.com), generate the email using custom html, and deliver it to users via [Postmark](https://postmarkapp.com) using the built-in [SMTP python library](https://docs.python.org/3/library/smtplib.html) Python module.
+I use React and Fauna to power the front end.
 
-I use [React](https://reactjs.org) to call the Fauna db and display new releases on the front end.
+I chose Fauna because they have [excellent documentation](https://docs.fauna.com/fauna/current/) and an active online community that made it easy to learn.
+
+They also have a super-generous free tier that powers the entire operation.
+
+Python is the engine that powers the data retrieval processes for the application. I built web crawlers to search the web hourly for new magazines.
+
+I use Replit to retrieve the newsletter subscribers from Fauna, generate the email using custom html, and deliver it to users via Postmark using the built-in [SMTP python library](https://docs.python.org/3/library/smtplib.html) Python module.
 
 I signed up for a Replit pro account because they offer a server that is constantly active for $7/mo.
 
 ![Replit Pro Account](https://res.cloudinary.com/dccqw6mij/image/upload/v1647129011/kji4pouufnzppkbx2zqt.png)
-
-I chose Fauna because they have [excellent documentation](https://docs.fauna.com/fauna/current/) and an active online community that made it easy to learn.
-
-They also have a super-generous free tier that I use it to power this entire operation.
 
 </section>
 
 <section>
 ## Design 🧑🏽‍🎨
 
-I decided to use a grid layout of the latest magazine covers as the main web interface. This felt similar to browsing magazines in the real world.
+I decided to use a grid layout of magazine covers as the main web interface. This felt similar to browsing magazines in the real world.
 
 ![Magfinder home page](https://res.cloudinary.com/dccqw6mij/image/upload/v1647129152/xcce9hf14fha2spgeazt.png)
 
 Clicking a cover links to the magazine's website where you can learn more about it (or buy it).
 
-I soon realized many of these magazines also have RSS feeds available. I leveraged my Replit account to process all the available RSS feeds I could find.
-
-Next I created a /feeds route that shows the latest articles from various magazines.
+I soon realized many of these magazines also have RSS feeds available. I leveraged my Replit account to process all the available RSS feeds I could find and created a /feeds route to show the latest articles.
 
 ![Magfinder /feeds route](https://res.cloudinary.com/dccqw6mij/image/upload/v1647129280/whmt6l8bwj4ya64ptqdm.png)
 
