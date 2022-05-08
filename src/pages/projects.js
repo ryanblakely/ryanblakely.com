@@ -20,17 +20,6 @@ const Projects = (props) => {
                         </a>
                     </section>
                     <section>
-                        <a href='https://nft-portfolio.netlify.app' target='_blank' rel='noreferrer'>
-                            <img
-                                src='https://res.cloudinary.com/dccqw6mij/image/upload/v1646855269/qhheww5ix4cywykgqgqo.svg'
-                                alt=''
-                            />
-                        </a>
-                        <a href='https://nft-portfolio.netlify.app' target='_blank' rel='noreferrer'>
-                            NFT Wallet Tracker
-                        </a>
-                    </section>
-                    <section>
                         <a href='https://www.youtube.com/watch?v=9qJFNoTSZfY' target='_blank' rel='noreferrer'>
                             <img
                                 src='https://res.cloudinary.com/dccqw6mij/image/upload/v1646862254/qdllerjnb9h8wok7ouju.svg'
